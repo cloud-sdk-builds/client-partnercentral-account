@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-partnercentral-account`](https://www.npmjs.com/package/@aws-sdk/client-partnercentral-account/v/3.946.0).
+[`@aws-sdk/client-partnercentral-account`](https://www.npmjs.com/package/@aws-sdk/client-partnercentral-account/v/3.947.0).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.946.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.947.0/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-mPBcAq35edoDMRRsAkZdelyxyykk6aItCD5xgEMVPAPFhZRXf8fo7zo+nstsP+GI
+sha384-TNjshQ7IkA2ymUA0O3s8hIh7/24UjTcR3qDl0m6UWxtoaHf1S8bjCh1FB2muMlfE
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-partnercentral-account": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.946.0/index.min.mjs"
+            "@aws-sdk/client-partnercentral-account": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.947.0/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.946.0/index.min.mjs": "sha384-mPBcAq35edoDMRRsAkZdelyxyykk6aItCD5xgEMVPAPFhZRXf8fo7zo+nstsP+GI"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.947.0/index.min.mjs": "sha384-TNjshQ7IkA2ymUA0O3s8hIh7/24UjTcR3qDl0m6UWxtoaHf1S8bjCh1FB2muMlfE"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-partnercentral-account": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.946.0/index.min.mjs"
+                        "@aws-sdk/client-partnercentral-account": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.947.0/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.946.0/index.min.mjs": "sha384-mPBcAq35edoDMRRsAkZdelyxyykk6aItCD5xgEMVPAPFhZRXf8fo7zo+nstsP+GI"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-partnercentral-account@3.947.0/index.min.mjs": "sha384-TNjshQ7IkA2ymUA0O3s8hIh7/24UjTcR3qDl0m6UWxtoaHf1S8bjCh1FB2muMlfE"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.946.0`)
+* Always pin to a specific version (`@3.947.0`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-partnercentral-account/blob/refs/tags/3.946.0/LICENSE
+https://github.com/cloud-sdk-builds/client-partnercentral-account/blob/refs/tags/3.947.0/LICENSE
 ```
 
 ---
